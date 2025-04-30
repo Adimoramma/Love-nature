@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+
+.home {
+   /* background: linear-gradient(
+        to top, rgba(102, 95, 95, 0), rgba(172, 172, 228, 0), rgba(104, 274, 118, 0.11)
+    ); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-image: url(header-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    
+}
+.background_tint{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(26, 24, 26, 0.212);
+    position: absolute;
+    
+}
+.de-home {
+    margin-left: 50px;
+    
+}
+
+.header {
+    display: flex;
+}
+
+.header-logo img {
+    margin-top: 25px;
+    width: 60px;
+    margin-left: 28px;
+}
+
+.header-nav ul{
+margin-left: 613px;
+}
+
+.header-nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 42px;
+    margin-left: 32px;
+    color: #ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.header-contact button {
+    margin-top: 30px;
+    margin-left: 45px;
+    padding: 15px 40px;
+    background: transparent;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    color: #ffff
+}
+
+.landing-desc {
+    display: grid;
+    margin: 0;
+    place-items: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.p1 {
+    
+    margin-top: 100px;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #ffff    
+}
+
+.p2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 100px;
+    letter-spacing: -3px;
+    color: #ffff
+}
+
+.p3 {
+    align-items: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #ffff
+    
+}
+
+.landing-desc button {
+    margin-top: 40px;
+    padding: 15px 40px;
+    background-color: rgb(255, 217, 54);
+    color: rgb(83, 105, 66);
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+    border-style: none;
+}
+
+
+
+/* this is the second section that contains the OUR SERIVES*/
+
+
+.p4 {
+    font-family: "DM Sans", sans-serif;;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 37px;
+    color: rgb(83, 105, 66);
+    
+}
+
+.divider{
+    border-bottom: 3px solid rgb(255, 217, 54);
+    width: 7%;
+    margin: 22px auto;
+}
+
+.services-grid {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0 130px;
+    margin-bottom: 100px;
+
+}
+
+.service1, .service2, .service3{
+    margin-top: 35px;
+}
+
+.service-img img {
+    border-radius: 3px;
+}
+
+.service-title {
+    font-family: "DM Sans", sans-serif;;
+    align-items: left;
+    text-align: left;
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(83, 105, 66);
+    padding-left: 5px;
+    padding-right: 5px;   
+}
+
+.service-desc {
+    font-family: "DM Sans", sans-serif;;
+    text-align: justify;
+    word-spacing: 1px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: rgb(151, 155, 148);
+    padding-left: 5px;
+    line-height: 1.5;
+    padding-right: 5px;   
+    
+}
+
+
+
+
+/* this section is for qoutes*/
+.quotes {
+    background-color: rgba(161, 161, 161, 0.11);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-icon{
+    margin: 30px 0px;
+}
+
+.quote-icon img{
+    width: 35px;
+    object-fit: contain;
+    opacity: 0.5;
+}
+
+.qoute{
+    width: 46%;
+    font-size: 1.7em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    line-height: 1.4;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    color: rgb(83, 105, 66);
+}
+
+.quote-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-profile img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.quote-profile p{
+    font-size: 13px;
+    opacity: 0.9;
+    color: rgb(83, 105, 66);
+}
+
+/*this section is for about us*/
+
+.about-us {
+    padding: 50px 130px;
+}
+
+.about-us-grid {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.about-us-info {
+    width: 34%;
+
+}
+
+.p5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin: 20px 0px;
+    color: rgb(83, 105, 66);
+
+
+}
+
+.p6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: rgb(83, 105, 66);
+    margin-bottom: 20px;
+} 
+
+.p7 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 35px 0px;
+    color: rgb(83, 105, 66);
+}
